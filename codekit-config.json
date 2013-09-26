@@ -24,6 +24,26 @@
       "initialSize" : 13295,
       "fileType" : 4096
     },
+    "\/assets\/css\/themes\/theme-blue-good.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/themes\/theme-blue-good.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/assets\/projects\/triple-c.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/projects\/triple-c.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/projects\/triple-c.jpg",
+      "initialSize" : 364008,
+      "fileType" : 4096
+    },
     "\/assets\/projects\/thumbs\/blue-diamond-brands.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -35,15 +55,15 @@
       "initialSize" : 16433,
       "fileType" : 4096
     },
-    "\/assets\/projects\/triple-c.jpg" : {
+    "\/assets\/projects\/wilmington-health.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/projects\/triple-c.jpg",
+      "inputAbbreviatedPath" : "\/assets\/projects\/wilmington-health.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/projects\/triple-c.jpg",
-      "initialSize" : 364008,
+      "outputAbbreviatedPath" : "\/assets\/projects\/wilmington-health.jpg",
+      "initialSize" : 276161,
       "fileType" : 4096
     },
     "\/assets\/source\/scss\/third_party\/magnific-popup\/_magnific-popup.scss" : {
@@ -57,26 +77,6 @@
       "outputAbbreviatedPath" : "\/assets\/source\/scss\/css\/_magnific-popup.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/assets\/projects\/wilmington-health.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/projects\/wilmington-health.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/projects\/wilmington-health.jpg",
-      "initialSize" : 276161,
-      "fileType" : 4096
-    },
-    "\/assets\/css\/themes\/theme-blue-good.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/themes\/theme-blue-good.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/assets\/css\/themes\/images\/theme-carrot.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -165,17 +165,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/projects\/adapt.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/projects\/adapt.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/projects\/adapt.jpg",
-      "initialSize" : 204055,
-      "fileType" : 4096
-    },
     "\/assets\/source\/js\/jquery.master.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -187,15 +176,15 @@
       "outputAbbreviatedPath" : "\/assets\/js\/jquery.master-ck.js",
       "fileType" : 64
     },
-    "\/assets\/css\/themes\/images\/default.jpg" : {
+    "\/assets\/projects\/adapt.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/themes\/images\/default.jpg",
+      "inputAbbreviatedPath" : "\/assets\/projects\/adapt.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/themes\/images\/default.jpg",
-      "initialSize" : 3725,
+      "outputAbbreviatedPath" : "\/assets\/projects\/adapt.jpg",
+      "initialSize" : 204055,
       "fileType" : 4096
     },
     "\/assets\/css\/themes\/theme-emerald.css" : {
@@ -206,6 +195,17 @@
       "inputAbbreviatedPath" : "\/assets\/css\/themes\/theme-emerald.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
+    },
+    "\/assets\/css\/themes\/images\/default.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/themes\/images\/default.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/themes\/images\/default.jpg",
+      "initialSize" : 3725,
+      "fileType" : 4096
     },
     "\/assets\/source\/scss\/_mixins.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -359,6 +359,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/assets\/projects\/thumbs\/triple-c.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/projects\/thumbs\/triple-c.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/projects\/thumbs\/triple-c.jpg",
+      "initialSize" : 13648,
+      "fileType" : 4096
+    },
     "\/assets\/projects\/thumbs\/erickson-davis.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -368,17 +379,6 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/assets\/projects\/thumbs\/erickson-davis.jpg",
       "initialSize" : 11758,
-      "fileType" : 4096
-    },
-    "\/assets\/projects\/curry-construction.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/projects\/curry-construction.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/projects\/curry-construction.jpg",
-      "initialSize" : 455871,
       "fileType" : 4096
     },
     "\/assets\/source\/scss\/third_party\/foundation\/foundation_original.scss" : {
@@ -404,6 +404,17 @@
       "initialSize" : 328748,
       "fileType" : 4096
     },
+    "\/assets\/projects\/curry-construction.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/projects\/curry-construction.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/projects\/curry-construction.jpg",
+      "initialSize" : 455871,
+      "fileType" : 4096
+    },
     "\/assets\/css\/themes\/theme-pomegranate.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -424,17 +435,6 @@
       "initialSize" : 3725,
       "fileType" : 4096
     },
-    "\/assets\/projects\/thumbs\/triple-c.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/projects\/thumbs\/triple-c.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/projects\/thumbs\/triple-c.jpg",
-      "initialSize" : 13648,
-      "fileType" : 4096
-    },
     "\/assets\/css\/themes\/theme-orange.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -443,15 +443,6 @@
       "inputAbbreviatedPath" : "\/assets\/css\/themes\/theme-orange.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
-    },
-    "\/assets\/source\/kit\/includes\/_footer.kit" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/kit\/includes\/_footer.kit",
-      "outputAbbreviatedPath" : "\/assets\/_footer.html",
-      "fileType" : 65536
     },
     "\/assets\/css\/themes\/images\/theme-amethyst.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -486,6 +477,15 @@
       "outputAbbreviatedPath" : "\/assets\/projects\/blue-diamond-brands.jpg",
       "initialSize" : 370525,
       "fileType" : 4096
+    },
+    "\/assets\/source\/kit\/includes\/_footer.kit" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/source\/kit\/includes\/_footer.kit",
+      "outputAbbreviatedPath" : "\/assets\/_footer.html",
+      "fileType" : 65536
     },
     "\/assets\/css\/themes\/images\/theme-pomegranate.jpg" : {
       "ignoreWasSetByUser" : 0,
