@@ -1,0 +1,24 @@
+/* ===========================================================================
+	Break @ 767px
+	========================================================================== */
+	@media only screen and (max-width:767px) {
+
+		html {
+			font-size: 56%;
+		}
+
+		.wp-pagenavi {
+			margin-top: -1em;
+		}
+
+		.home,.archive,.page {
+			article:first-child {
+				margin-top: 5em;
+			}
+		}
+
+		article.no-thumb {
+			margin-top: 5em;
+		}
+
+	}

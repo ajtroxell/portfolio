@@ -1,0 +1,264 @@
+/* ===========================================================================
+	General Styles
+	========================================================================== */
+	html {
+		margin: 0;
+		font-size: 62.5%;
+	}
+
+	body {
+		font-family: $serif;
+		color: $text;
+		background: $background;
+		-ms-word-wrap: break-word;
+		word-wrap: break-word;
+	}
+
+	.module {
+		/* margin-bottom: 2em;
+		&:first-child {
+			margin-top: 2.95em;
+		} */
+	}
+
+	/*  Element Resets
+		========================================================================== */
+		h1,h2,h3,h4,h5,h6 {
+			font-family: $serif;
+			font-weight: 400;
+		}
+
+		h1,h2 {
+			margin: .2em 0;
+			padding-left: 1em;
+			@include font-size(16,16);
+			color: $tan;
+		}
+
+		h2 {
+			display: inline-block;
+			padding-left: 0;
+			clear: right;
+		}
+
+		ul,ol {
+			@include font-size(15);
+		}
+
+	/*  Buttons
+		========================================================================== */
+		.btn,input[type=submit],input[type=button],button[type=submit],button {
+			position: relative;
+			clear: both;
+			display: inline-block;
+			margin-bottom: 1em;
+			padding: .5em 2.4em;
+			font-family: $serif;
+			@include font-size(14,14);
+			text-shadow: 0px -1px $btn-text-border;
+			font-weight: 400;
+			color: $white;
+			background: $btn-light; /* Old browsers */
+			background: -moz-linear-gradient(top, $btn-light 0%, $btn-dark 40%, $btn-dark 72%, $btn-medium 100%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$btn-light), color-stop(40%,$btn-dark), color-stop(72%,$btn-dark), color-stop(100%,$btn-medium)); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top, $btn-light 0%,$btn-dark 40%,$btn-dark 72%,$btn-medium 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(top, $btn-light 0%,$btn-dark 40%,$btn-dark 72%,$btn-medium 100%); /* Opera 11.10+ */
+			background: -ms-linear-gradient(top, $btn-light 0%,$btn-dark 40%,$btn-dark 72%,$btn-medium 100%); /* IE10+ */
+			background: linear-gradient(to bottom, $btn-light 0%,$btn-dark 40%,$btn-dark 72%,$btn-medium 100%); /* W3C */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$btn-light', endColorstr='$btn-medium',GradientType=0 ); /* IE6-9 */
+			border: 1px solid $btn-border-dark;
+			@include border-radius(.25em);
+			@include box-shadow((inset 1px 0px 0px $btn-border-light, inset -1px 0px 0px $btn-border-light, inset 0px 1px 0px $btn-border-light, inset 0px -1px 0px $btn-border-light));
+			@include transition(box-shadow .4s);
+			&:hover {
+				@include box-shadow((inset 1px 0px 4px $btn-hover-glow, inset -1px 0px 4px $btn-hover-glow, inset 0px 1px 4px $btn-hover-glow, inset 0px -1px 4px $btn-hover-glow));
+			}
+			&:active {
+				background: $btn-active-bg;
+				@include box-shadow((inset 1px 0px 4px $btn-active-glow, inset -1px 0px 4px $btn-active-glow, inset 0px 1px 4px $btn-active-glow, inset 0px -1px 4px $btn-active-glow));
+				@include transition(box-shadow 0s);
+			}
+		}
+
+		.btn-full {
+			display: inline-block;
+			width: 100%;
+			max-width: 100%;
+			text-align: center;
+		}
+
+		span.tab {
+		    padding: 0 0 0 1em;
+		}
+
+		.h2 span.tab {
+		    padding: 0 0 0 1.45em;
+		}
+
+/* ===========================================================================
+	Styles
+	========================================================================== */
+	.h1,.h2 {
+		margin: 2em 0 1em 0;
+		color: $tan;
+	}
+
+	.content {
+		margin: 0 1.4em;
+	}
+
+	/*  Code
+		========================================================================== */
+		ul.code {
+			list-style-position: inside;
+			list-style-type: none;
+			margin: 0 0 1.25em 0;
+			padding: 0;
+			color: $white;
+			li ul {
+				list-style-position: inside;
+				list-style-type: none;
+			}
+		}
+
+		.green {
+			color: $green;
+		}
+
+		.blue {
+			color: $blue;			
+		}
+
+		.pink {
+			color: $pink;			
+		}
+
+		.white {
+			color: $white;			
+		}
+
+		.orange {
+			color: $orange;			
+		}
+
+		.purple {
+			color: $purple;			
+		}
+
+	/*  Projects
+		========================================================================== */
+		.projects {
+			h3 {
+				margin: 0 0 -.4em 0;
+				@include font-size(14,14);
+			}
+			a {
+				@include font-size(12,12);
+				color: $tan;
+				border-bottom: 0px;
+			}
+			img {
+				margin-bottom: .8em;
+			}
+		}
+
+	/*  Skills
+		========================================================================== */
+		ul.skills {
+			list-style-position: inside;
+			list-style-type: none;
+			margin: 0 0 1.25em 0;
+			padding: 0;
+			color: $white;
+			li {
+				margin-bottom: .5em;
+				ul {
+					list-style-position: inside;
+					list-style-type: none;
+				}
+			}
+		}
+
+	/*  Social
+		========================================================================== */
+		.social {
+			list-style: none;
+			text-align: center;
+			li {
+				display: inline-block;
+				margin: 0 .2em .2em .2em;
+				@include font-size(25,25);
+				a {
+					color: darken($white,20%);
+					&:hover {
+						color: $white;
+					}
+				}
+			}
+		}
+
+/* ===========================================================================
+	Form Styles
+	========================================================================== */
+	form {
+		margin: 0;
+		label {
+			margin-bottom: .2em;
+			font-family: $serif;
+			@include font-size(13,13);
+			color: $white;
+			text-shadow: 0px -1px $btn-text-border;
+			&.error {
+				margin-top: -1em;
+				margin-bottom: 1em;
+				@include font-size(12,12);
+				color: $red;
+			}
+		}
+		input[type="text"],
+		input[type="password"],
+		input[type="date"],
+		input[type="datetime"],
+		input[type="datetime-local"],
+		input[type="month"],
+		input[type="week"],
+		input[type="email"],
+		input[type="number"],
+		input[type="search"],
+		input[type="tel"],
+		input[type="time"],
+		input[type="url"],
+		textarea {
+			margin-bottom: 1.25em;
+			font-family: $serif;
+			@include font-size(14,14);
+			@include box-shadow(none);
+			background: $input-bg;
+			border: 1px solid $input-border;
+			@include border-radius(.2em);
+			&:focus {
+				@include box-shadow(none);
+			}
+			&[disabled] {
+				background: lighten($text,77%);
+			}
+			&.error {
+				background: $input-bg;
+				border-color: $red;
+			}
+		}
+	}
+
+	fieldset {
+		border: 0px;
+		margin: 0;
+		padding: 0;
+	}
+
+	.required {
+		color: $pink;
+	}
+
+	#success {
+		display: none;
+	}
