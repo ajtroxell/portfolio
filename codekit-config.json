@@ -33,17 +33,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/assets\/projects\/triple-c.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/projects\/triple-c.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/projects\/triple-c.jpg",
-      "initialSize" : 364008,
-      "fileType" : 4096
-    },
     "\/assets\/projects\/thumbs\/blue-diamond-brands.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -53,17 +42,6 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/assets\/projects\/thumbs\/blue-diamond-brands.jpg",
       "initialSize" : 16433,
-      "fileType" : 4096
-    },
-    "\/assets\/projects\/wilmington-health.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/projects\/wilmington-health.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/projects\/wilmington-health.jpg",
-      "initialSize" : 276161,
       "fileType" : 4096
     },
     "\/assets\/source\/scss\/third_party\/magnific-popup\/_magnific-popup.scss" : {
@@ -77,6 +55,28 @@
       "outputAbbreviatedPath" : "\/assets\/source\/scss\/css\/_magnific-popup.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/assets\/projects\/wilmington-health.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/projects\/wilmington-health.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/projects\/wilmington-health.jpg",
+      "initialSize" : 276161,
+      "fileType" : 4096
+    },
+    "\/assets\/projects\/triple-c.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/projects\/triple-c.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/projects\/triple-c.jpg",
+      "initialSize" : 364008,
+      "fileType" : 4096
     },
     "\/assets\/css\/themes\/images\/theme-carrot.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -187,6 +187,15 @@
       "initialSize" : 204055,
       "fileType" : 4096
     },
+    "\/assets\/css\/themes\/theme-emerald.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/themes\/theme-emerald.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/assets\/css\/themes\/images\/default.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -197,15 +206,6 @@
       "outputAbbreviatedPath" : "\/assets\/css\/themes\/images\/default.jpg",
       "initialSize" : 3725,
       "fileType" : 4096
-    },
-    "\/assets\/css\/themes\/theme-emerald.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/themes\/theme-emerald.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/assets\/source\/scss\/_mixins.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -303,15 +303,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/process.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/process.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/assets\/source\/scss\/third_party\/foundation\/foundation-medium.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -323,6 +314,15 @@
       "outputAbbreviatedPath" : "\/assets\/source\/scss\/css\/foundation-medium.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/process.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/process.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/assets\/css\/themes\/images\/theme-alizarin.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -392,6 +392,18 @@
       "initialSize" : 11758,
       "fileType" : 4096
     },
+    "\/assets\/source\/scss\/third_party\/foundation\/foundation_original.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/source\/scss\/third_party\/foundation\/foundation_original.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/source\/scss\/css\/foundation_original.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/assets\/projects\/heartland-bank.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -434,18 +446,6 @@
       "initialSize" : 3725,
       "fileType" : 4096
     },
-    "\/assets\/source\/scss\/third_party\/foundation\/foundation_original.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/scss\/third_party\/foundation\/foundation_original.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/source\/scss\/css\/foundation_original.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/assets\/css\/themes\/theme-orange.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -466,37 +466,6 @@
       "initialSize" : 3724,
       "fileType" : 4096
     },
-    "\/assets\/projects\/blue-diamond-brands.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/projects\/blue-diamond-brands.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/projects\/blue-diamond-brands.jpg",
-      "initialSize" : 370525,
-      "fileType" : 4096
-    },
-    "\/assets\/css\/themes\/images\/theme-pomegranate.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/themes\/images\/theme-pomegranate.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/themes\/images\/theme-pomegranate.jpg",
-      "initialSize" : 3726,
-      "fileType" : 4096
-    },
-    "\/assets\/source\/kit\/includes\/_footer.kit" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/kit\/includes\/_footer.kit",
-      "outputAbbreviatedPath" : "\/assets\/_footer.html",
-      "fileType" : 65536
-    },
     "\/assets\/source\/scss\/responsive.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -508,6 +477,37 @@
       "outputAbbreviatedPath" : "\/assets\/css\/responsive.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/assets\/projects\/blue-diamond-brands.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/projects\/blue-diamond-brands.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/projects\/blue-diamond-brands.jpg",
+      "initialSize" : 370525,
+      "fileType" : 4096
+    },
+    "\/assets\/source\/kit\/includes\/_footer.kit" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/source\/kit\/includes\/_footer.kit",
+      "outputAbbreviatedPath" : "\/assets\/_footer.html",
+      "fileType" : 65536
+    },
+    "\/assets\/css\/themes\/images\/theme-pomegranate.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/themes\/images\/theme-pomegranate.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/themes\/images\/theme-pomegranate.jpg",
+      "initialSize" : 3726,
+      "fileType" : 4096
     },
     "\/assets\/source\/scss\/third_party\/foundation\/foundation.scss" : {
       "ignoreWasSetByUser" : 0,
