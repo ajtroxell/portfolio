@@ -4,21 +4,12 @@
 	@media only screen and (max-width:767px) {
 
 		html {
-			font-size: 56%;
+			font-size: 60%;
 		}
 
-		.wp-pagenavi {
-			margin-top: -1em;
-		}
-
-		.home,.archive,.page {
-			article:first-child {
-				margin-top: 5em;
-			}
-		}
-
-		article.no-thumb {
-			margin-top: 5em;
+		img.about {
+			width: 100px;
+			height: auto;
 		}
 
 	}

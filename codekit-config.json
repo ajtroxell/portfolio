@@ -187,15 +187,6 @@
       "initialSize" : 204055,
       "fileType" : 4096
     },
-    "\/assets\/css\/themes\/theme-emerald.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/themes\/theme-emerald.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/assets\/css\/themes\/images\/default.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -206,6 +197,15 @@
       "outputAbbreviatedPath" : "\/assets\/css\/themes\/images\/default.jpg",
       "initialSize" : 3725,
       "fileType" : 4096
+    },
+    "\/assets\/css\/themes\/theme-emerald.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/themes\/theme-emerald.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/assets\/source\/scss\/_mixins.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -218,6 +218,17 @@
       "outputAbbreviatedPath" : "\/assets\/css\/_mixins.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/assets\/css\/images\/about.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/images\/about.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/images\/about.jpg",
+      "initialSize" : 96237,
+      "fileType" : 4096
     },
     "\/assets\/projects\/physicians-healthcare-collaborative.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -261,6 +272,17 @@
       "initialSize" : 12792,
       "fileType" : 4096
     },
+    "\/assets\/css\/themes\/images\/theme-concrete.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/themes\/images\/theme-concrete.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/themes\/images\/theme-concrete.jpg",
+      "initialSize" : 3725,
+      "fileType" : 4096
+    },
     "\/assets\/css\/themes\/theme-amethyst.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -280,17 +302,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/jquery.validate-ck-ck.js",
       "fileType" : 64
-    },
-    "\/assets\/css\/themes\/images\/theme-concrete.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/themes\/images\/theme-concrete.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/themes\/images\/theme-concrete.jpg",
-      "initialSize" : 3725,
-      "fileType" : 4096
     },
     "\/process.php" : {
       "ignoreWasSetByUser" : 0,
@@ -313,17 +324,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/css\/themes\/images\/theme-alizarin.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/themes\/images\/theme-alizarin.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/themes\/images\/theme-alizarin.jpg",
-      "initialSize" : 3726,
-      "fileType" : 4096
-    },
     "\/assets\/css\/themes\/images\/theme-orange.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -333,6 +333,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/assets\/css\/themes\/images\/theme-orange.jpg",
       "initialSize" : 3725,
+      "fileType" : 4096
+    },
+    "\/assets\/projects\/curry-construction.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/projects\/curry-construction.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/projects\/curry-construction.jpg",
+      "initialSize" : 455871,
       "fileType" : 4096
     },
     "\/assets\/source\/scss\/element-resets.scss" : {
@@ -347,16 +358,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/projects\/curry-construction.jpg" : {
+    "\/assets\/source\/scss\/general.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/projects\/curry-construction.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/projects\/curry-construction.jpg",
-      "initialSize" : 455871,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/assets\/source\/scss\/general.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/general.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/assets\/projects\/thumbs\/triple-c.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -403,6 +415,15 @@
       "initialSize" : 328748,
       "fileType" : 4096
     },
+    "\/assets\/css\/themes\/theme-pomegranate.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/themes\/theme-pomegranate.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/assets\/css\/themes\/images\/wisteria.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -414,26 +435,16 @@
       "initialSize" : 3725,
       "fileType" : 4096
     },
-    "\/assets\/css\/themes\/theme-pomegranate.css" : {
+    "\/assets\/css\/themes\/images\/theme-alizarin.jpg" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/themes\/theme-pomegranate.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/assets\/source\/scss\/general.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/scss\/general.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/general.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/assets\/css\/themes\/images\/theme-alizarin.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/themes\/images\/theme-alizarin.jpg",
+      "initialSize" : 3726,
+      "fileType" : 4096
     },
     "\/assets\/css\/themes\/theme-orange.css" : {
       "ignoreWasSetByUser" : 0,
@@ -476,17 +487,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/projects\/blue-diamond-brands.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/projects\/blue-diamond-brands.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/projects\/blue-diamond-brands.jpg",
-      "initialSize" : 370525,
-      "fileType" : 4096
-    },
     "\/assets\/css\/themes\/images\/theme-pomegranate.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -496,6 +496,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/assets\/css\/themes\/images\/theme-pomegranate.jpg",
       "initialSize" : 3726,
+      "fileType" : 4096
+    },
+    "\/assets\/projects\/blue-diamond-brands.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/projects\/blue-diamond-brands.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/projects\/blue-diamond-brands.jpg",
+      "initialSize" : 370525,
       "fileType" : 4096
     },
     "\/assets\/source\/scss\/third_party\/foundation\/foundation.scss" : {
@@ -983,6 +994,13 @@
     {
       "type" : 1,
       "position" : 0,
+      "linkedFileAbbreviatedPath" : "\/assets\/source\/js\/jquery.contact.js",
+      "baseFileAbbreviatedPath" : "\/assets\/source\/js\/third_party\/jquery-validate\/jquery.validate.js",
+      "followForSyntaxChecking" : 1
+    },
+    {
+      "type" : 1,
+      "position" : 0,
       "linkedFileAbbreviatedPath" : "\/assets\/source\/js\/third_party\/loadcomplete\/loadcomplete.js",
       "baseFileAbbreviatedPath" : "\/assets\/source\/js\/jquery.master.js",
       "followForSyntaxChecking" : 1
@@ -999,13 +1017,6 @@
       "position" : 2,
       "linkedFileAbbreviatedPath" : "\/assets\/source\/js\/jquery.functions.js",
       "baseFileAbbreviatedPath" : "\/assets\/source\/js\/jquery.master.js",
-      "followForSyntaxChecking" : 1
-    },
-    {
-      "type" : 1,
-      "position" : 0,
-      "linkedFileAbbreviatedPath" : "\/assets\/source\/js\/jquery.contact.js",
-      "baseFileAbbreviatedPath" : "\/assets\/source\/js\/third_party\/jquery-validate\/jquery.validate.js",
       "followForSyntaxChecking" : 1
     }
   ],

@@ -8,7 +8,7 @@
 
 	body {
 		font-family: $serif;
-		color: $text;
+		color: $white;
 		background: $background;
 		-ms-word-wrap: break-word;
 		word-wrap: break-word;
@@ -195,7 +195,7 @@
 		========================================================================== */
 		.social {
 			list-style: none;
-			margin: 0;
+			margin: 1em 0 0 0;
 			text-align: center;
 			@include font-size(20,20);
 			li {
