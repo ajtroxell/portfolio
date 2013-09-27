@@ -24,7 +24,7 @@
 
 <body>
 <div class="row">
-	<div class="small-12 small-centered large-7 columns">
+	<div class="small-12 small-centered medium-10 large-7 columns">
 
 		<header class="h1">
 			/* =====================================================================================
@@ -32,7 +32,6 @@
 			<span class="tab"></span>==================================================================================== */
 		</header>
 		<div class="h2">
-			/*
 			<h2>Front-end Developer</h2>
 			<span class="tab"></span>=================================================================================== */
 		</div>
@@ -46,7 +45,7 @@
 						<li><span class="blue">resume</span>: <span class="purple"><a href="resume.pdf">download PDF</a></span>;</li>
 						<li><span class="green">.status</span> {
 							<ul>
-								<li><span class="blue">full-time</span>: <span class="purple">JTNet Inc.</span>;</li>
+								<li><span class="blue">interactive specialist</span>: <span class="purple">JTnet Inc.</span>;</li>
 								<li><span class="blue">location</span>: <span class="purple">Decatur, IL</span>;</li>
 							</ul>
 						}</li>
@@ -57,7 +56,6 @@
 
 		<section>
 			<div class="h2">
-				/*
 				<h2>Projects</h2>
 				<span class="tab"></span>=================================================================================== */
 			</div>
@@ -167,7 +165,6 @@
 
 		<section>
 			<div class="h2">
-				/*
 				<h2>Skills</h2>
 				<span class="tab"></span>=================================================================================== */
 			</div>
@@ -190,24 +187,24 @@
 						<ul>
 							<li><span class="pink">xHTML(5)/CSS</span> {
 								<ul>
-									<li><span class="blue">CodeKit</span>
+									<li><span class="blue">CodeKit</span> {
 										<ul>
 											<li><span class="purple">JS Compress/Minify (JSLint) to master-ck.js</span></li>
 											<li><span class="purple">CSS Compress/Minify to master.css file</span></li>
 											<li><span class="purple">Kit language for static HTML sites</span></li>
 										</ul>
-									</li>
+									}</li>
 									<li><span class="blue">Zurb Foundation (avid user since v2)</span></li>
 									<li><span class="blue">Bootstrap</span></li>
 									<li><span class="blue">SASS/LESS</span></li>
 									<li><span class="blue">Media Queries</span></li>
 									<li><span class="blue">Responsive Design</span></li>
-									<li><span class="blue">Icon Fonts</span>
+									<li><span class="blue">Icon Fonts</span> {
 										<ul>
 											<li><span class="purple">Creation of custom fonts (<a href="http://ajtroxell.github.io/wp-metro/" target="new" title="opens new window/tab">wp-metro icon font</a>)</span></li>
 											<li><span class="purple">Usage inline &amp; via CSS "content" property</span></li>
 										</ul>
-									</li>
+									}</li>
 								</ul>
 							}</li>
 							<li><span class="pink">Wordpress</span> {
@@ -267,7 +264,6 @@
 
 		<section>
 			<div class="h2">
-				/*
 				<h2>Contact</h2>
 				<span class="tab"></span>=================================================================================== */
 			</div>
@@ -292,7 +288,9 @@
 					</fieldset>  
 				</form>
 				<div id="success">
-					<p class="green">Thanks for contacting me! I will be in touch as soon as I can!</p>
+					<span class="green textcenter">
+						<p>Your message was sent succssfully! I will be in touch as soon as I can.</p>
+					</span>
 				</div>
 			</div>
 		</section>
@@ -304,14 +302,20 @@
 <footer class="row">
 	<div class="small-12 small-centered large-7 columns">
 		<ul class="social">
-			<li><a href="#"><i class=""></i></li>
+			<li><a href="mailto: &#097;&#106;&#064;&#097;&#106;&#116;&#114;&#111;&#120;&#101;&#108;&#108;&#046;&#099;&#111;&#109;"><i class="metro-mail"></i></a></li>
+			<li><a href="https://github.com/ajtroxell"><i class="metro-github"></i></a></li>
+			<li><a href="https://twitter.com/AJTroxell"><i class="metro-twitter"></i></a></li>
+			<li><a href="https://www.facebook.com/ajtroxell"><i class="metro-facebook"></i></a></li>
+			<li><a href="http://www.linkedin.com/in/ajtroxell/"><i class="metro-linkedin"></i></a></li>
+			<li><a href="http://ajtroxell.com/"><i class="metro-wordpress"></i></a></li>
 		</ul>
-		<p class="copy">&copy; 2013 AJ Troxell<br />Updated 9-26-2013 @ 5:08pm</p>
+		<p class="copy textcenter">&copy;2013 AJ Troxell<br /><?php echo "Updated: " . date ("F d Y H:i:s.", getlastmod()); ?></p>
 	</div>
 </footer>
 
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script src="assets/js/jquery.master-ck.js"></script>
-	<script src="http://malsup.github.com/jquery.form.js"></script> 
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script> 
 	<script src="assets/js/jquery.validate-ck.js"></script>
 
 </body>

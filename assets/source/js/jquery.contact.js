@@ -33,8 +33,7 @@
                     data: $(form).serialize(),
                     url:"process.php",
                     success: function() {
-                        alert('inside');
-                        $('#contact').fadeOut( function() {
+                        $('#contact').fadeTo( "slow", 0.15, function() {
                             $('#success').fadeIn();
                         });
                     }

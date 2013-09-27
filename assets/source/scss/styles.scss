@@ -36,9 +36,10 @@
 		}
 
 		h2 {
-			display: inline-block;
-			padding-left: 0;
-			clear: right;
+			padding-left: 0em;
+			&:before {
+				content: "/* ";
+			}
 		}
 
 		ul,ol {
@@ -80,6 +81,13 @@
 			}
 		}
 
+		.mfp-arrow,.mfp-close {
+			@include box-shadow(none);
+			&:hover {
+				@include box-shadow(none);
+			} 
+		}
+
 		.btn-full {
 			display: inline-block;
 			width: 100%;
@@ -104,6 +112,7 @@
 	}
 
 	.content {
+		position: relative;
 		margin: 0 1.4em;
 	}
 
@@ -179,23 +188,34 @@
 			}
 		}
 
+/* ===========================================================================
+	Footer
+	========================================================================== */
 	/*  Social
 		========================================================================== */
 		.social {
 			list-style: none;
+			margin: 0;
 			text-align: center;
+			@include font-size(20,20);
 			li {
 				display: inline-block;
-				margin: 0 .2em .2em .2em;
-				@include font-size(25,25);
+				margin: 0 .2em;
 				a {
-					color: darken($white,20%);
+					color: $orange;
+					border-bottom: 0px;
 					&:hover {
 						color: $white;
 					}
 				}
 			}
 		}
+
+	p.copy {
+		margin: 0 0 1em 0;
+		@include font-size(12,14);
+		color: $tan;
+	}
 
 /* ===========================================================================
 	Form Styles
@@ -261,4 +281,13 @@
 
 	#success {
 		display: none;
+		span {
+			display: block;
+			position: absolute;
+			top: 0;
+			width: 100%;
+			p {
+				margin-top: 6em;
+			}
+		}
 	}
